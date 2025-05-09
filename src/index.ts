@@ -17,6 +17,7 @@ import Triangle from './polygon/triangle';
 import Polygon from './polygon/polygon';
 import Circle from './polygon/circle';
 import Sector from './polygon/sector';
+import Polyline from './line/polyline';
 
 import { GeometryStyle } from './interface';
 import * as CesiumTypeOnly from 'cesium';
@@ -41,6 +42,7 @@ const CesiumPlot: any = {
   Polygon,
   Circle,
   Sector,
+  Polyline
 };
 
 type CreateGeometryFromDataOpts = {
